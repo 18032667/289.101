@@ -1,4 +1,4 @@
-  .important{
+.important{
     color: #ff6600;
     font-style: italic;
     font-family:fantasy;
@@ -7,7 +7,7 @@
 
 body{
     margin: 0;
-}
+    }
 
 #box1{
     background-color: aqua;
@@ -23,6 +23,7 @@ body{
     margin-top: 50px;
     padding-top: 100px;
     }
+
 
 #box2{
     background-color: olive;
