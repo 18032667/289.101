@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
-    
-    <title>Layout 1</title>
-    
-    <meta charset="utf-8"/>
     
     <style>
     
@@ -15,44 +10,43 @@
         
         #container {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
             margin: auto;
             max-width: 800px;
-            max-height: 800px;
             }
-        
+    
         #blue {
             background-color: blue;
-            grid-column: 1/5;
+            grid-column: 1/4;
             height: 200px;
             }
         
-        #red {
+        .red {
             background-color: red;
-            height: 600px;
+            height: 400px;
             }
         
         #green {
             background-color: green;
-            grid-column: 2/5;
-        }
+            grid-column: 1/4;
+            height: 200px;
+            }
     
     </style>
+    
     
     
 </head>
 
 <body>
-
+    
     <div id="container">
         <div id="blue"></div>
-        <div id="red"></div>
-        <div id="green"></div>
-    </div>    
-    
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="red"></div>
+        <div id="green"></div> 
+    </div>
     
 </body>
-
-
-
 </html>
